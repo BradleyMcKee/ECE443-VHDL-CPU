@@ -1,0 +1,210 @@
+# Design: Design Processor already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -work Processor -2002  $dsn/src/adder16bit.vhd $dsn/src/and2Gate.vhd $dsn/src/andGate.vhd $dsn/src/fulladder.vhd $dsn/src/halfadder.vhd $dsn/src/multi16bit.vhd $dsn/src/multiplexer16bit.vhd $dsn/src/multiplexer16bitstruct.vhd $dsn/src/nandGate.vhd $dsn/src/notGate.vhd $dsn/src/orGate.vhd $dsn/src/sub16bit.vhd $dsn/src/xorGate.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\adder16bit.vhd
+# Compile Entity "adder16bit"
+# Compile Architecture "structure" of Entity "adder16bit"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\and2Gate.vhd
+# Compile Entity "and2Gate"
+# Compile Architecture "behave" of Entity "and2Gate"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\andGate.vhd
+# Compile Entity "andGate"
+# Compile Architecture "behave" of Entity "andGate"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\fulladder.vhd
+# Compile Entity "fulladder"
+# Compile Architecture "STRUCTURAL" of Entity "fulladder"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\halfadder.vhd
+# Compile Entity "halfadder"
+# Compile Architecture "structure" of Entity "halfadder"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\multi16bit.vhd
+# Compile Entity "multi16bit"
+# Compile Architecture "behaviorModel" of Entity "multi16bit"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\multiplexer16bit.vhd
+# Compile Entity "multiplexer16bit"
+# Compile Architecture "behave" of Entity "multiplexer16bit"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\multiplexer16bitstruct.vhd
+# Compile Entity "multiplexer16bit"
+# Compile Architecture "struct" of Entity "multiplexer16bit"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\nandGate.vhd
+# Compile Entity "nandGate"
+# Compile Architecture "behave" of Entity "nandGate"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\notGate.vhd
+# Compile Entity "notGate"
+# Compile Architecture "behave" of Entity "notGate"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\orGate.vhd
+# Compile Entity "orGate"
+# Compile Architecture "behave" of Entity "orGate"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\sub16bit.vhd
+# Compile Entity "sub16bit"
+# Compile Architecture "structural" of Entity "sub16bit"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\xorGate.vhd
+# Compile Entity "xorGate"
+# Compile Architecture "behave" of Entity "xorGate"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => multiplexer16bit
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\multiplexer16bitstruct.vhd
+# Compile Architecture "struct" of Entity "multiplexer16bit"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\adder16bit.vhd
+# Compile Architecture "structure" of Entity "adder16bit"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\fulladder.vhd
+# Compile Architecture "STRUCTURAL" of Entity "fulladder"
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\halfadder.vhd
+# Compile Architecture "structure" of Entity "halfadder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Warning: ELAB1_0026: ALU_16.vhd : (55, 0): There is no default binding for component "Adder_16". (No entity named "Adder_16" was found).
+# Warning: ELAB1_0026: ALU_16.vhd : (57, 0): There is no default binding for component "Subtractor_16". (No entity named "Subtractor_16" was found).
+# Warning: ELAB1_0026: ALU_16.vhd : (59, 0): There is no default binding for component "Multiplier_16". (No entity named "Multiplier_16" was found).
+# Warning: ELAB1_0026: ALU_16.vhd : (61, 0): There is no default binding for component "Multiplexer_8to1_by16". (No entity named "Multiplexer_8to1_by16" was found).
+# Compile success 0 Errors 4 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Warning: ELAB1_0026: ALU_16.vhd : (55, 0): There is no default binding for component "adder16bit". (Port "S" is not on the entity).
+# Warning: ELAB1_0026: ALU_16.vhd : (57, 0): There is no default binding for component "sub16bit". (Port "S" is not on the entity).
+# Error: ELAB1_0021: ALU_16.vhd : (59, 0): Types do not match for port "A".
+# Error: ELAB1_0021: ALU_16.vhd : (59, 0): Types do not match for port "B".
+# Compile failure 2 Errors 2 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Warning: ELAB1_0026: ALU_16.vhd : (55, 0): There is no default binding for component "adder16bit". (Port "S" is not on the entity).
+# Warning: ELAB1_0026: ALU_16.vhd : (57, 0): There is no default binding for component "sub16bit". (Port "S" is not on the entity).
+# Error: ELAB1_0021: ALU_16.vhd : (59, 0): Types do not match for port "A".
+# Error: ELAB1_0021: ALU_16.vhd : (59, 0): Types do not match for port "B".
+# Compile failure 2 Errors 2 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Error: COMP96_0078: ALU_16.vhd : (35, 13): Unknown identifier "unsigned".
+# Error: COMP96_0064: ALU_16.vhd : (35, 13): Unknown type.
+# Error: COMP96_0078: ALU_16.vhd : (36, 12): Unknown identifier "unsigned".
+# Error: COMP96_0064: ALU_16.vhd : (36, 12): Unknown type.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Warning: ELAB1_0026: ALU_16.vhd : (55, 0): There is no default binding for component "adder16bit". (Port "S" is not on the entity).
+# Warning: ELAB1_0026: ALU_16.vhd : (57, 0): There is no default binding for component "sub16bit". (Port "S" is not on the entity).
+# Warning: ELAB1_0026: ALU_16.vhd : (59, 0): There is no default binding for component "multi16bit". (Port "S" is not on the entity).
+# Error: COMP96_0100: ALU_16.vhd : (59, 33): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Error: COMP96_0100: ALU_16.vhd : (59, 35): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Error: COMP96_0100: ALU_16.vhd : (59, 37): Actual parameter type in port map does not match the type of the formal port 'S'.
+# Compile failure 3 Errors 3 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Error: ELAB1_0011: ALU_16.vhd : (55, 0): Port "C" is on entity "adder16bit" but not on the component declaration.
+# Error: COMP96_0100: ALU_16.vhd : (59, 33): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Error: COMP96_0100: ALU_16.vhd : (59, 35): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Error: COMP96_0100: ALU_16.vhd : (59, 37): Actual parameter type in port map does not match the type of the formal port 'S'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Error: COMP96_0100: ALU_16.vhd : (56, 34): Actual parameter type in port map does not match the type of the formal port 'C'.
+# Error: COMP96_0100: ALU_16.vhd : (56, 47): Actual parameter type in port map does not match the type of the formal port 'RESULT'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 33): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 35): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 37): Actual parameter type in port map does not match the type of the formal port 'S'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Error: COMP96_0100: ALU_16.vhd : (56, 34): Actual parameter type in port map does not match the type of the formal port 'C'.
+# Error: COMP96_0100: ALU_16.vhd : (56, 39): Actual parameter type in port map does not match the type of the formal port 'RESULT'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 33): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 35): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 37): Actual parameter type in port map does not match the type of the formal port 'S'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Error: ELAB1_0011: ALU_16.vhd : (58, 0): Port "C" is on entity "sub16bit" but not on the component declaration.
+# Error: COMP96_0100: ALU_16.vhd : (60, 33): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 35): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 37): Actual parameter type in port map does not match the type of the formal port 'S'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Error: ELAB1_0011: ALU_16.vhd : (58, 0): Port "C" is on entity "sub16bit" but not on the component declaration.
+# Error: COMP96_0100: ALU_16.vhd : (58, 35): Actual parameter type in port map does not match the type of the formal port 'RESULT'.
+# Error: COMP96_0100: ALU_16.vhd : (58, 48): Actual parameter type in port map does not match the type of the formal port 'Cout'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 33): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 35): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Error: COMP96_0100: ALU_16.vhd : (60, 37): Actual parameter type in port map does not match the type of the formal port 'S'.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Warning: ELAB1_0026: ALU_16.vhd : (63, 0): There is no default binding for component "multi16bit". (Port "S" is not on the entity).
+# Error: COMP96_0100: ALU_16.vhd : (63, 33): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Error: COMP96_0100: ALU_16.vhd : (63, 35): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Error: COMP96_0100: ALU_16.vhd : (63, 37): Actual parameter type in port map does not match the type of the formal port 'S'.
+# Compile failure 3 Errors 1 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/ALU_16.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\ALU_16.vhd
+# Compile Entity "ALU_16"
+# Compile Architecture "Structural" of Entity "ALU_16"
+# Error: COMP96_0100: ALU_16.vhd : (63, 33): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Error: COMP96_0100: ALU_16.vhd : (63, 35): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Error: COMP96_0100: ALU_16.vhd : (63, 37): Actual parameter type in port map does not match the type of the formal port 'RESULT'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/multi16bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src\multi16bit.vhd
+# Compile Entity "multi16bit"
+# Compile Architecture "behaviorModel" of Entity "multi16bit"
+# Error: COMP96_0071: multi16bit.vhd : (18, 17): Operator "*" is not defined for such operands.
+# Error: COMP96_0077: multi16bit.vhd : (18, 13): Undefined type of expression. Exp

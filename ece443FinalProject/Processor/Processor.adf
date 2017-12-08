@@ -1,0 +1,86 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Processor
+
+[Library]
+Processor=.\Processor\Processor.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=<none>
+fileopenfolder=C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Processor=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/notGate.vhd=-1
+/xorGate.vhd=-1
+/orGate.vhd=-1
+/nandGate.vhd=-1
+/multi16bit.vhd=-1
+/and2Gate.vhd=-1
+/andGate.vhd=-1
+/multiplexer16bit.vhd=-1
+/multiplexer16bitstruct.vhd=-1
+/sub16bit.vhd=-1
+/adder16bit.vhd=-1
+/fulladder.vhd=-1
+/halfadder.vhd=-1
+/ALU_16.vhd=-1
+/ProgramCounter.vhd=-1
+/counterIncrement.vhd=-1
+
+[Files.Data]
+.\src\notGate.vhd=VHDL Source Code
+.\src\xorGate.vhd=VHDL Source Code
+.\src\orGate.vhd=VHDL Source Code
+.\src\nandGate.vhd=VHDL Source Code
+.\src\multi16bit.vhd=VHDL Source Code
+.\src\and2Gate.vhd=VHDL Source Code
+.\src\andGate.vhd=VHDL Source Code
+.\src\multiplexer16bit.vhd=VHDL Source Code
+.\src\multiplexer16bitstruct.vhd=VHDL Source Code
+.\src\sub16bit.vhd=VHDL Source Code
+.\src\adder16bit.vhd=VHDL Source Code
+.\src\fulladder.vhd=VHDL Source Code
+.\src\halfadder.vhd=VHDL Source Code
+.\src\ALU_16.vhd=VHDL Source Code
+.\src\ProgramCounter.vhd=VHDL Source Code
+
+.\src\counterIncrement.vhd=VHDL Source Code

@@ -1,0 +1,16 @@
+i<>.\src\adder16bit.vhd
+i<>.\src\and2Gate.vhd
+i<>.\src\andGate.vhd
+i<>.\src\fulladder.vhd
+i<>.\src\halfadder.vhd
+i<>.\src\multi16bit.vhd
+i<>.\src\multiplexer16bit.vhd
+i<>.\src\multiplexer16bitstruct.vhd
+i<>.\src\nandGate.vhd
+i<>.\src\notGate.vhd
+i<>.\src\orGate.vhd
+i<>.\src\sub16bit.vhd
+i<>.\src\xorGate.vhd
+i<>.\src\ALU_16.vhd
+i<>.\src\ProgramCounter.vhd
+i<>.\src\counterIncrement.vhd

@@ -1,0 +1,41 @@
+Active-HDL 9.3.2744.sp1.09.4995  2017-12-07 12:44:48 PM
+
+Elaboration top modules:
+Architecture                  struct(multiplexer16bit)
+
+
+------------------------------------------------------------------------------------------------------------
+Entity           | Architecture  | Library   | Info | Compiler Version                | Compilation Options
+------------------------------------------------------------------------------------------------------------
+multiplexer16bit | struct        | Processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+notGate          | behave        | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+nandGate         | behave        | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+adder16bit       | structure     | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+andGate          | behave        | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+multi16bit       | behaviormodel | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+sub16bit         | structural    | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+fulladder        | structural    | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+halfadder        | structure     | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+orGate           | behave        | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+xorGate          | behave        | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+and2Gate         | behave        | processor |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------
+VHDL Package                     | Library   | Info | Compiler Version                | Compilation Options
+------------------------------------------------------------------------------------------------------------
+standard                         | std       |      |                                 | 
+TEXTIO                           | std       |      | 9.3.2744.sp1.09.4995  (Windows) |  -2008
+std_logic_1164                   | ieee      |      | 9.3.2744.sp1.09.4995  (Windows) |  -2008
+std_logic_arith                  | ieee      |      | 9.3.2744.sp1.09.4995  (Windows) | 
+NUMERIC_STD                      | ieee      |      | 9.3.2744.sp1.09.4995  (Windows) |  -2008
+STD_LOGIC_UNSIGNED               | ieee      |      | 9.3.2744.sp1.09.4995  (Windows) | 
+------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------
+Library                          | Comment
+------------------------------------------------------------------------------------------------------------
+ieee                             | Standard IEEE packages library
+Processor                        | None
+std                              | Standard VHDL library
+------------------------------------------------------------------------------------------------------------

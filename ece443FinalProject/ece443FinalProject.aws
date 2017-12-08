@@ -1,0 +1,12 @@
+[Version]
+Version=9.3
+[Designs]
+processor=.\Processor\Processor.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+processor=1
