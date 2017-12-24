@@ -32,7 +32,7 @@ ON_SERVERFARM_IMPL=0
 ON_SERVERFARM_SIM=0
 DVM_DISPLAY=NO
 FAMILY=<none>
-fileopenfolder=C:\Users\Brad\Documents\GitHub\ece443Final\ece443FinalProject\Processor\src
+fileopenfolder=E:\GitHub\ece443Final\ece443Final\ece443FinalProject\Processor\src
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -47,6 +47,26 @@ Active_lib=
 
 [IMPLEMENTATION]
 UCF=
+
+[Folders]
+Name3=Makefiles
+Directory3=E:\GitHub\ece443Final\ece443Final\ece443FinalProject\Processor\
+Extension3=mak
+Name4=Memory
+Directory4=E:\GitHub\ece443Final\ece443Final\ece443FinalProject\Processor\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=E:\GitHub\ece443Final\ece443Final\ece443FinalProject\Processor\
+Extension5=dll
+Name6=PDF
+Directory6=E:\GitHub\ece443Final\ece443Final\ece443FinalProject\Processor\
+Extension6=pdf
+Name7=HTML
+Directory7=E:\GitHub\ece443Final\ece443Final\ece443FinalProject\Processor\
+Extension7=htm;html
+
+[SpecTracer]
+WindowVisible=0
 
 [Files]
 /notGate.vhd=-1
@@ -63,8 +83,14 @@ UCF=
 /fulladder.vhd=-1
 /halfadder.vhd=-1
 /ALU_16.vhd=-1
-/ProgramCounter.vhd=-1
 /counterIncrement.vhd=-1
+/processor.vhd=-1
+/randomaccessmemory_waveform_Simulation.awc=-1
+/randomaccessmemory.vhd=-1
+/registerFile.vhd=-1
+/untitled.awc=-1
+/untitled2.asdb=-1
+/untitled2.awc=-1
 
 [Files.Data]
 .\src\notGate.vhd=VHDL Source Code
@@ -81,6 +107,16 @@ UCF=
 .\src\fulladder.vhd=VHDL Source Code
 .\src\halfadder.vhd=VHDL Source Code
 .\src\ALU_16.vhd=VHDL Source Code
-.\src\ProgramCounter.vhd=VHDL Source Code
-
 .\src\counterIncrement.vhd=VHDL Source Code
+.\src\processor.vhd=VHDL Source Code
+.\src\randomaccessmemory_waveform_Simulation.awc=Accelerated Waveform Configuration
+.\src\randomaccessmemory.vhd=VHDL Source Code
+.\src\registerFile.vhd=VHDL Source Code
+
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\untitled2.asdb=Accelerated Waveform File
+.\src\untitled2.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

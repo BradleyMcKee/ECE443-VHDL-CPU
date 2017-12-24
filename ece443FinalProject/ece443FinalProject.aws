@@ -10,3 +10,5 @@ order=1
 macro=
 [Expand]
 processor=1
+[Settings]
+Active=processor

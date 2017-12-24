@@ -12,5 +12,7 @@ i<>.\src\orGate.vhd
 i<>.\src\sub16bit.vhd
 i<>.\src\xorGate.vhd
 i<>.\src\ALU_16.vhd
-i<>.\src\ProgramCounter.vhd
 i<>.\src\counterIncrement.vhd
+i<>.\src\processor.vhd
+i<>.\src\randomaccessmemory.vhd
+i<>.\src\registerFile.vhd

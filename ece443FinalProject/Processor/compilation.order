@@ -12,5 +12,7 @@
 .\src\fulladder.vhd
 .\src\halfadder.vhd
 .\src\ALU_16.vhd
-.\src\ProgramCounter.vhd
 .\src\counterIncrement.vhd
+.\src\processor.vhd
+.\src\randomaccessmemory.vhd
+.\src\registerFile.vhd

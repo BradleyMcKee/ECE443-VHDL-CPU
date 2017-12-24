@@ -9,11 +9,12 @@ entity ProgramCounter is
 );
 end ProgramCounter;
 
+--This will allow the counter to increment on the falling edge of the clock cycle
 architecture behave of ProgramCounter is
 begin
 	Process(clk)
 	begin
-		if rising_edge(clk) then
+		if falling_edge(clk) then
 			PC <= nextIns;
 		end if;
 	end Process;

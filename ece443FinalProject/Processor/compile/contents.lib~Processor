@@ -1,8 +1,8 @@
-101
+113
 ~E 1 "./../src/adder16bit.vhd" 8 adder16bit
 ~A 1 "./../src/adder16bit.vhd" 16 structure
-~E 1 "./../src/ALU_16.vhd" 6 ALU_16
-~A 1 "./../src/ALU_16.vhd" 15 Structural
+~E 1 "./../src/ALU_16.vhd" 5 ALU_16
+~A 1 "./../src/ALU_16.vhd" 14 Structural
 ~E 1 "./../src/and2Gate.vhd" 5 and2Gate
 ~A 1 "./../src/and2Gate.vhd" 11 behave
 ~E 1 "./../src/andGate.vhd" 5 andGate
@@ -11,8 +11,10 @@
 ~A 1 "./../src/fulladder.vhd" 11 STRUCTURAL
 ~E 1 "./../src/halfadder.vhd" 6 halfadder
 ~A 1 "./../src/halfadder.vhd" 12 structure
+~E 1 "./../src/counterIncrement.vhd" 7 incremental
+~A 1 "./../src/counterIncrement.vhd" 14 behave
 ~E 1 "./../src/multi16bit.vhd" 5 multi16bit
-~A 1 "./../src/multi16bit.vhd" 12 behaviormodel
+~A 1 "./../src/multi16bit.vhd" 12 behaviorModel
 ~E 1 "./../src/multiplexer16bitstruct.vhd" 6 multiplexer16bit
 ~A 1 "./../src/multiplexer16bit.vhd" 14 behave
 ~A 1 "./../src/multiplexer16bitstruct.vhd" 14 struct
@@ -22,8 +24,12 @@
 ~A 1 "./../src/notGate.vhd" 11 behave
 ~E 1 "./../src/orGate.vhd" 5 orGate
 ~A 1 "./../src/orGate.vhd" 11 behave
+~E 1 "./../src/processor.vhd" 9 processor
 ~E 1 "./../src/ProgramCounter.vhd" 4 ProgramCounter
-~A 1 "./../src/ProgramCounter.vhd" 12 behave
+~E 1 "./../src/randomaccessmemory.vhd" 7 ram
+~A 1 "./../src/randomaccessmemory.vhd" 17 behavioral
+~E 1 "./../src/registerFile.vhd" 5 registerFile
+~A 1 "./../src/registerFile.vhd" 15 behavioral
 ~E 1 "./../src/sub16bit.vhd" 7 sub16bit
 ~A 1 "./../src/sub16bit.vhd" 15 structural
 ~E 1 "./../src/xorGate.vhd" 5 xorGate

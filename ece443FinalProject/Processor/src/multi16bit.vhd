@@ -10,15 +10,17 @@ entity multi16bit is port(
 end entity;
 
 architecture behaviorModel of multi16bit is
-begin			 
+	signal temp : signed (31 downto 0);
+
+begin
 	--behavioral > structural
 	process (A,B)
 	begin
-		
-		RESULT <= A * B;
+	temp <= signed(A) * signed(B);
 conditionforOverflow: if (RESULT'length > 16) then
-		overflow <= '1';
-		end if;
+						overflow <= '1';
+					  end if; 
+	result <= std_logic_vector(temp);
 	end process;
 end behaviorModel;
 		

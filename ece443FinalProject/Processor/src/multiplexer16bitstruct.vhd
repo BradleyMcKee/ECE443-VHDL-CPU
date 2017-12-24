@@ -87,7 +87,7 @@ add3: 	RESULT <= to_signed(plus,32);
 comp2:  andGate port map(S2,S1,SN0,outty);
 convertvect2unsignedA:  multiA <= unsigned(A);
 convertvect2unsignedB:  multiB <= unsigned(B);
-multibit: multi16bit port map(multiA,multiB,unsignedi32,overflow);	  
+--multibit: multi16bit port map(multiA,multiB,unsignedi32,overflow);  FIX THIS LINE	  
 convert2int: int <= to_integer(unsignedi32);
 convert2ans: RESULT <= to_signed(int,32); 
 
